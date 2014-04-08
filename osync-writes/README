@@ -1,0 +1,18 @@
+What for ?
+==========
+This has C File which opens a file with O_SYNC|O_WRONLY|O_CREAT flags,
+on the given file, and starts copying another file, "smallfile" to the
+new file.
+
+This write happen with O_SYNC properties.
+
+Supporting script
+=================
+There is a "script.sh", which calls the executable of this C File,
+with argument as "mount-point".
+
+How to ?
+=========
+Compile the C File, cc -o write-osync-file write-osync-file.c
+Execute "script.sh", with the mount point as argument
+
