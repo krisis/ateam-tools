@@ -1,0 +1,4 @@
+To execute this C program,
+1. Install glusterfs-api and glusterfs-api-devel package
+2. Compile as follows,
+> gcc -o <exe> $(pkg-config --libs --cflags glusterfs-api) <barrier-gfapi.c>
