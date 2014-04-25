@@ -1,0 +1,11 @@
+To run the barrier-test perform the following :
+1. Get the executable file by compiling barrier-test.c
+  >> gcc -o barrier-test barrier-test.c
+
+2. Run the script
+  >> barrier-sanity.sh
+  
+  Note: This script doesn't enable barrier, but it prompts to 
+        enable barrier, before running the test.
+        You can skip the test by pressing "n", when it prompts to
+        enable barrier
